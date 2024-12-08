@@ -5,14 +5,14 @@ import Book from './pages/Book';
 import Map from './pages/Map';
 import Characters from './pages/Characters';
 import News from './pages/News';
-import NavBar from './components/NavBar/NavBar';
+import Header from './components/Header/Header';
 import './styles/general.scss'
 
 const App = () => {
 
   return (
     <>
-      <NavBar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

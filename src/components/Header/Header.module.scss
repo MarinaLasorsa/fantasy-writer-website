@@ -1,0 +1,20 @@
+@use '../../styles/partials/variables' as vars;
+
+
+.pageHeader {
+    background-color: vars.$dark-purple;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.authorLogo {
+    max-width: 125px;
+
+}
+
+.headerRow {
+    justify-content: space-between;
+    align-items: center;
+}

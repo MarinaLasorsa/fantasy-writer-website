@@ -13,29 +13,29 @@ const NavBar = () => {
     return (
         <nav className={`container ${styles.navbar}`}>
             <ul className={`row ${styles.navLinks}`}>
-                <li>
+                <li className={styles.linkItem}>
                     <NavLink to="/">Home</NavLink>
                 </li>
-                <li>
+                <li className={styles.linkItem}>
                     <NavLink to="/about">L'autore</NavLink>
                 </li>
-                <li>
+                <li className={styles.linkItem}>
                     <NavLink to="/book">Il libro</NavLink>
                 </li>
-                <li onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+                <li className={styles.linkItem} onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
                     <span>Extra &#9207;</span>
                     {isDropdownOpen && ( //se isDropdownOpen è true, allora appare ciò che è nelle parentesi. if non si può usare
-                        <ul>
+                        <ul className={styles.dropdownMenu}>
                             <li>
-                                <NavLink to="/map">Mappa</NavLink>
+                                <NavLink to="/map" className={styles.dropdownLink}>Mappa</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/characters">Personaggi</NavLink>
+                                <NavLink to="/characters" className={styles.dropdownLink}>Personaggi</NavLink>
                             </li>
                         </ul>
                     )}
                 </li>
-                <li>
+                <li className={styles.linkItem}>
                     <NavLink to="/news">Eventi</NavLink>
                 </li>
             </ul>

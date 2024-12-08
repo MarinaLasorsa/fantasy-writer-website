@@ -1,4 +1,38 @@
-.navLinks {
+@use '../../styles/partials/variables' as vars;
 
-    gap: 1rem;
+.navLinks {
+    font-size: 20px;
+    gap: 3rem;
+    align-items: baseline;
+    position: relative;
+}
+
+.linkItem {
+    color: vars.$light-yellow;
+    font-family: "Noto Serif", serif;
+
+    &:hover {
+        color: #fff6d0;
+    }
+}
+
+
+.dropdownMenu {
+    font-family: "Noto Serif", serif;
+    background-color: vars.$dark-purple;
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+    padding: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    line-height: 35px;
+    border-top: 3px solid vars.$light-yellow;
+}
+
+.dropdownLink {
+    color: vars.$light-yellow;
+
+    &:hover {
+        color: #fff6d0;
+    }
 }
