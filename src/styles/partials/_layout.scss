@@ -1,0 +1,14 @@
+.container {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.container-sm {
+    max-width: 575px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
