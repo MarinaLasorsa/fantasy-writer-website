@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Home.module.scss';
+import Hero from '../../components/Hero Section/Hero'
 
 const Home = () => {
 
     return (
         <>
-            <div className={`container ${styles.home}`}>
-                <h1>HOME</h1>
+            <div>
+                <Hero />
             </div>
         </>
     )

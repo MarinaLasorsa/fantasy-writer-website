@@ -19,7 +19,7 @@
 
 .dropdownMenu {
     font-family: "Noto Serif", serif;
-    background-color: vars.$dark-purple;
+    background-color: rgba(vars.$dark-purple, 0.8);
     position: absolute;
     top: 100%;
     z-index: 10;

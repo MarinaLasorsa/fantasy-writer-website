@@ -2,15 +2,17 @@
 
 
 .pageHeader {
-    background-color: vars.$dark-purple;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(vars.$dark-purple, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .authorLogo {
-    max-width: 125px;
+    max-width: 120px;
 
 }
 

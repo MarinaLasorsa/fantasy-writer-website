@@ -1,0 +1,10 @@
+@use '../../styles/partials/variables' as vars;
+
+.button {
+
+    background-color: vars.$light-purple;
+    color: black;
+    font-family: "Noto Serif", serif;
+    padding: 10px;
+
+}
