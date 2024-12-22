@@ -2,9 +2,31 @@
 
 .button {
 
+    display: inline-block;
+    padding: 10px;
+}
+
+.hero {
     background-color: vars.$light-purple;
     color: black;
-    font-family: "Noto Serif", serif;
-    padding: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 
+    &:hover {
+        transform: scale(1.1); //transform size by 20%
+        box-shadow: 0 0 15px white;
+        background-color: vars.$dark-purple;
+        color: vars.$light-yellow;
+    }
+}
+
+.book {
+    background-color: vars.$dark-purple;
+    color: vars.$light-yellow;
+    border: 2px solid vars.$dark-purple;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: vars.$light-yellow;
+        color: vars.$dark-purple;
+    }
 }

@@ -1,0 +1,28 @@
+.icon {
+    width: 200px;
+    height: auto;
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 99;
+}
+
+.linkCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //text-shadow: 1px 1px 5px vars.$dark-purple;
+    position: relative;
+    background-color: rgba($color: #ffffff, $alpha: 0.4);
+    padding: 20px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.linkName {
+    font-size: 25px;
+    position: relative;
+}

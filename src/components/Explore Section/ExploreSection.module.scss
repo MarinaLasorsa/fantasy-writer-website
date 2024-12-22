@@ -1,0 +1,21 @@
+@use '../../styles/partials/variables' as vars;
+
+.exploreSection {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background: url('/mountains-bg.jpg') no-repeat center/cover;
+}
+
+.sectionTitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+    align-self: center;
+    color: black;
+}
+
+.iconsSection {
+    display: flex;
+    justify-content: space-evenly;
+}

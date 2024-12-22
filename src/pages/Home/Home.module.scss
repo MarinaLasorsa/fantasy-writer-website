@@ -1,0 +1,13 @@
+@use '../../styles/partials/variables' as vars;
+
+.dividerSection {
+    background-color: vars.$light-purple;
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    height: 140px;
+    width: auto;
+
+}

@@ -1,13 +1,17 @@
 import React from 'react';
 import styles from './Home.module.scss';
-import Hero from '../../components/Hero Section/Hero'
+import HeroSection from './Hero Section/HeroSection';
+import BookSection from './Book Section/BookSection';
+import ExploreSection from '../../components/Explore Section/ExploreSection';
 
 const Home = () => {
 
     return (
         <>
             <div>
-                <Hero />
+                <HeroSection />
+                <BookSection />
+                <ExploreSection />
             </div>
         </>
     )
