@@ -5,8 +5,8 @@ import styles from './ExploreSection.module.scss';
 const ExploreSection = () => {
 
     return (
-        <section>
-            <div>
+        <section className={styles.exploreSectionBg}>
+            <div className='container'>
                 <div className={styles.exploreSection}>
                     <h2 className={`titleFont ${styles.sectionTitle}`}>ESPLORA</h2>
                     <div className={styles.iconsSection}>

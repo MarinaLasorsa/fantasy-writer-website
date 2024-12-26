@@ -1,0 +1,28 @@
+.authorSection {
+    padding: 30px 0;
+}
+
+.authorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.authorPic {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+
+.sectionTitle {
+    font-family: "Gabriela", serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.sectionText {
+    font-size: 17px;
+    margin-bottom: 25px;
+}

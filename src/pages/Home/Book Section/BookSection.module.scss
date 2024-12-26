@@ -13,13 +13,35 @@
     align-items: start;
 }
 
+.coverColumn {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .bookCover {
     display: inline-block;
     width: 350px;
     height: auto;
+    position: relative;
+    animation-name: bookEntry;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes bookEntry {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 100px;
+    }
 }
 
 .sectionTitle {
+    font-family: "Gabriela", serif;
     font-size: 35px;
     margin-bottom: 7px;
     color: black;
@@ -32,6 +54,6 @@
 }
 
 .sectionText {
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-bottom: 25px;
 }

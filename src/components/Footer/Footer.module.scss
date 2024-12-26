@@ -1,0 +1,12 @@
+@use '../../styles/partials/variables' as vars;
+
+
+.pageFooter {
+    padding: 30px 0;
+    background-color: vars.$dark-purple;
+    color: vars.$light-yellow;
+}
+
+.footerRow {
+    justify-content: center;
+}

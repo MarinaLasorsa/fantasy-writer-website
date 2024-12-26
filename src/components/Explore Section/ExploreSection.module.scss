@@ -1,11 +1,14 @@
 @use '../../styles/partials/variables' as vars;
 
+.exploreSectionBg {
+    padding: 30px 0;
+    background: url('/mountains-bg.jpg') no-repeat center/cover;
+}
+
 .exploreSection {
-    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background: url('/mountains-bg.jpg') no-repeat center/cover;
 }
 
 .sectionTitle {

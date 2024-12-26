@@ -9,7 +9,7 @@ const Header = () => {
             <header className={styles.pageHeader}>
                 <div className='container'>
                     <div className={`row ${styles.headerRow}`}>
-                        <img className={styles.authorLogo} src='../../../Logo.svg' alt='author logo' />
+                        <img className={styles.authorLogo} src='/Logo.svg' alt='author logo' />
                         <NavBar />
                     </div>
                 </div>

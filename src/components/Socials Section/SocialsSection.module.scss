@@ -1,0 +1,36 @@
+@use '../../styles/partials/variables' as vars;
+
+.socialsSectionBg {
+    padding: 30px 0;
+    background-color: vars.$light-purple;
+}
+
+.socialsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    font-size: 35px;
+    margin-bottom: 30px;
+    align-self: center;
+    color: black;
+}
+
+.iconsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialsIcon {
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    margin: 0 20px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.07);
+    }
+}
